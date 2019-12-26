@@ -8,7 +8,7 @@
                     </div>
                 </b-col>
                 <b-col>
-                    <p class>{{text}}</p>
+                    <p class="white">{{text}}</p>
                 </b-col>
             </b-row>
         </b-col>
@@ -16,7 +16,7 @@
         <b-col>
             <b-row>
                 <b-col>
-                    <p class="floatRight">{{text2}}</p>
+                    <p class="floatRight white">{{text2}}</p>
                 </b-col>
                 <b-col>
                     <div class="floatLeft">
