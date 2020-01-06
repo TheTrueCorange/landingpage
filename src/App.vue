@@ -6,7 +6,7 @@
                 <b-col></b-col>
                 <b-col cols="10">
                     <headline2 class="section-title text-center"
-                               text="Gym 4 Life"></headline2>
+                               text="Here comes a banner"></headline2>
                 </b-col>
                 <b-col></b-col>
             </b-row>
@@ -19,6 +19,11 @@
                     <b-col></b-col>
                     <b-col cols="10">
                         <List>
+                            <ListRow
+                                    :url="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text="100% Gewissheit, wie dein Training aussieht."
+                                    :url2="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text2="100% Gewissheit, wie dein Training aussieht."/>
                             <ListRow
                                     :url="require('../src/assets/icons/007-dumbbell_white.png')"
                                     text="100% Gewissheit, wie dein Training aussieht."

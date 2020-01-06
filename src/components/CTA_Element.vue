@@ -1,5 +1,5 @@
 <template>
-    <div class="cta_element">
+    <div class="cta_element white">
         {{text}}
     </div>
 </template>

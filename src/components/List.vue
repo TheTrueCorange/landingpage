@@ -7,12 +7,10 @@
 </template>
 
 <script>
-    import ListRow from "@/components/ListRow";
 
     export default {
         name: "List",
         components:{
-            ListRow
         }
     }
 </script>
