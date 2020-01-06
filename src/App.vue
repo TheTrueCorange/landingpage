@@ -18,7 +18,14 @@
                 <b-row>
                     <b-col></b-col>
                     <b-col cols="10">
-                        <List></List>
+                        <List>
+                            <ListRow
+                                    :url="require('../src/assets/icons/007-dumbbell.png')"
+                                    text="abc"
+                                    :url2="require('../src/assets/icons/007-dumbbell.png')"
+                                    text2="abcd"
+                            />
+                        </List>
                     </b-col>
                     <b-col></b-col>
                 </b-row>
@@ -47,6 +54,7 @@
     import Headline2 from "@/components/Headline2";
     import BuyButton from "@/components/BuyButton";
     import List from "@/components/List";
+    import ListRow from "@/components/ListRow";
 
     export default {
         name: 'app',
@@ -54,6 +62,7 @@
             Headline2,
             BuyButton,
             List,
+            ListRow,
         }
     }
 </script>

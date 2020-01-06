@@ -1,12 +1,7 @@
 <template>
     <div>
         <b-container>
-            <ListRow
-                :url="require('../assets/icons/007-dumbbell.png')"
-                text="abc"
-                :url2="require('../assets/icons/007-dumbbell.png')"
-                text2="abcd"
-            />
+            <slot></slot>
         </b-container>
     </div>
 </template>
