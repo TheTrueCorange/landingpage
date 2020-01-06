@@ -1,3 +1,9 @@
+/*
+Phone: 375px
+Tablet: 768px
+Desktop: 1280px
+ */
+
 *{
     font-family: Raleway;
 }
@@ -17,7 +23,7 @@ p{
     font-weight: 800;
     text-transform: uppercase;
     position: relative;
-    margin-bottom: 70px;
+    padding: 50px;
 }
 
 .text-center{
@@ -43,6 +49,32 @@ p{
     background-color: #33adff;
 }
 
+.cta_element{
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    background-position: -97px 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #33adff;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 768px){
+    .cta_element{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .cta_element{
+        width: 50%;
+    }
+}
+
 .white{
     color: white;
 }
@@ -58,4 +90,5 @@ p{
 
 .bg__blue{
     background-color: #040E1E;
+    padding: 50px;
 }

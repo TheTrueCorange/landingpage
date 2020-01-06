@@ -6,7 +6,7 @@
                 <b-col></b-col>
                 <b-col cols="10">
                     <headline2 class="section-title text-center"
-                               text="Hallo meine kleine liebe welt Hallo meine kleine liebe welt Hallo meine kleine liebe welt Hallo meine kleine liebe welt"></headline2>
+                               text="Gym 4 Life"></headline2>
                 </b-col>
                 <b-col></b-col>
             </b-row>
@@ -20,18 +20,27 @@
                     <b-col cols="10">
                         <List>
                             <ListRow
-                                    :url="require('../src/assets/icons/007-dumbbell.png')"
-                                    text="abc"
-                                    :url2="require('../src/assets/icons/007-dumbbell.png')"
-                                    text2="abcd"
-                            />
+                                    :url="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text="100% Gewissheit, wie dein Training aussieht."
+                                    :url2="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text2="100% Gewissheit, wie dein Training aussieht."/>
+                            <ListRow
+                                    :url="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text="100% Gewissheit, wie dein Training aussieht."
+                                    :url2="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text2="100% Gewissheit, wie dein Training aussieht."/>
+                            <ListRow
+                                    :url="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text="100% Gewissheit, wie dein Training aussieht."
+                                    :url2="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text2="100% Gewissheit, wie dein Training aussieht."/>
                         </List>
                     </b-col>
                     <b-col></b-col>
                 </b-row>
-
-                <BuyButton text="hallo welt" url="http://www.google.com"></BuyButton>
             </b-container>
+            <CTA_Element text="Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt">
+            </CTA_Element>
         </div>
 
         <!-- line -->
@@ -40,6 +49,7 @@
                 <b-row>
                     <b-col></b-col>
                     <b-col cols="10">
+                        <BuyButton text="hallo welt" url="http://www.google.com"></BuyButton>
                         <headline2 class="section-title txt-center" text="hallo w"></headline2>
                     </b-col>
                     <b-col></b-col>
@@ -55,10 +65,12 @@
     import BuyButton from "@/components/BuyButton";
     import List from "@/components/List";
     import ListRow from "@/components/ListRow";
+    import CTA_Element from "@/components/CTA_Element";
 
     export default {
         name: 'app',
         components: {
+            CTA_Element,
             Headline2,
             BuyButton,
             List,
