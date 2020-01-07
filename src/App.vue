@@ -4,7 +4,7 @@
         <b-container>
             <b-row>
                 <b-col></b-col>
-                <b-col cols="10">
+                <b-col cols="8">
                     <headline2 class="section-title text-center"
                                text="Here comes a banner"></headline2>
                 </b-col>
@@ -17,7 +17,7 @@
             <b-container>
                 <b-row>
                     <b-col></b-col>
-                    <b-col cols="10">
+                    <b-col cols="8">
                         <List>
                             <ListRow
                                     :url="require('../src/assets/icons/007-dumbbell_white.png')"
@@ -44,9 +44,23 @@
                     <b-col></b-col>
                 </b-row>
             </b-container>
-            <CTA_Element text="Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt">
-            </CTA_Element>
+            <CTA_Element text="Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt"></CTA_Element>
         </div>
+
+        <!-- line -->
+        <div>
+
+            <b-container>
+                <b-row>
+                    <b-col></b-col>
+                    <b-col cols="8">
+                        <Accordion></Accordion>
+                    </b-col>
+                    <b-col></b-col>
+                </b-row>
+            </b-container>
+        </div>
+
 
         <!-- line -->
         <div>
@@ -54,8 +68,7 @@
                 <b-row>
                     <b-col></b-col>
                     <b-col cols="10">
-                        <BuyButton text="hallo welt" url="http://www.google.com"></BuyButton>
-                        <headline2 class="section-title txt-center" text="hallo w"></headline2>
+                        <BuyButton text="kauf meinen scheiß"></BuyButton>
                     </b-col>
                     <b-col></b-col>
                 </b-row>
@@ -71,6 +84,7 @@
     import List from "@/components/List";
     import ListRow from "@/components/ListRow";
     import CTA_Element from "@/components/CTA_Element";
+    import Accordion from "@/components/Accordion";
 
     export default {
         name: 'app',
@@ -80,6 +94,7 @@
             BuyButton,
             List,
             ListRow,
+            Accordion
         }
     }
 </script>
