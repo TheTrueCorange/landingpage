@@ -57,7 +57,7 @@ p{
     text-align: center;
     background-position: -97px 0;
     width: 100%;
-    margin: 0 auto;
+    margin: 10px 0 10px 0;
     background-color: #1e3250;
     padding: 20px;
 }
@@ -81,9 +81,17 @@ p{
 }
 
 .accordion{
-    padding: 10px;
+
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-position: -97px 0;
     width: 100%;
     margin: 0 auto;
+    background-color: #1e3250;
+
 }
 
 .accordion__headline{
@@ -113,7 +121,7 @@ p{
 
 @media only screen and (min-width: 1280px) {
     .cta_element {
-        width: 50%;
+        width: 100%;
     }
 
     .accordion{

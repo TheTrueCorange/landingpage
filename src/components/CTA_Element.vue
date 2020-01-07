@@ -1,5 +1,5 @@
 <template>
-    <div class="cta_element white">
+    <div class="cta_element background white">
         {{text}}
     </div>
 </template>
@@ -14,5 +14,9 @@
 </script>
 
 <style scoped>
+
+    .background{
+        background-color: #1e3250;
+    }
 
 </style>

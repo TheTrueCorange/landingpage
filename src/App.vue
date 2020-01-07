@@ -44,7 +44,7 @@
                     <b-col></b-col>
                 </b-row>
             </b-container>
-            <CTA_Element text="Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt"></CTA_Element>
+
         </div>
 
         <!-- line -->
@@ -54,6 +54,7 @@
                 <b-row>
                     <b-col></b-col>
                     <b-col cols="8">
+                        <CTA_Element text="Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt"></CTA_Element>
                         <Accordion></Accordion>
                     </b-col>
                     <b-col></b-col>
