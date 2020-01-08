@@ -55,7 +55,12 @@
                     <b-col></b-col>
                     <b-col cols="8">
                         <CTA_Element text="Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt"></CTA_Element>
-                        <Accordion question="verdammte frage" answer="verdammte antwort"></Accordion>
+                        <FAQ>
+                            <Accordion question="verdammte frage" answer="verdammte antwort"></Accordion>
+                            <Accordion question="verdammte frage" answer="verdammte antwort"></Accordion>
+                            <Accordion question="verdammte frage" answer="verdammte antwort"></Accordion>
+                            <Accordion question="verdammte frage" answer="verdammte antwort"></Accordion>
+                        </FAQ>
                     </b-col>
                     <b-col></b-col>
                 </b-row>
@@ -86,6 +91,7 @@
     import ListRow from "@/components/ListRow";
     import CTA_Element from "@/components/CTA_Element";
     import Accordion from "@/components/Accordion";
+    import FAQ from "./components/FAQ";
 
     export default {
         name: 'app',
@@ -95,7 +101,8 @@
             BuyButton,
             List,
             ListRow,
-            Accordion
+            Accordion,
+            FAQ
         }
     }
 </script>
