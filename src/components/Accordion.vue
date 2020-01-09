@@ -1,7 +1,12 @@
 <template>
     <div>
-        <b-button @click="toggleActive" v-b-toggle.collapse-1 variant="primary">{{question}}</b-button>
-        <b-collapse id="collapse-1" class="mt-2">
+        <b-button :class="visible ? null : 'collapsed'"
+                  :aria-expanded="visible ? 'true' : 'false'"
+                  :aria-controls="identifier"
+                  @click="visible = !visible"
+        >
+            Toggle Collapse</b-button>
+        <b-collapse :id="identifier" v-model="visible" class="mt-2">
             <b-card>
                 <p class="card-text">{{answer}}</p>
             </b-card>
@@ -11,11 +16,17 @@
 
 <script>
     export default {
+        data() {
+            return {
+                visible: true
+            }
+        },
         name: "Accordion",
         props:{
             question: String,
             answer: String,
             isActive: Boolean,
+            identifier: String,
         },
         methods:{
             toggleActive: function(){

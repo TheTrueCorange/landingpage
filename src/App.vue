@@ -56,7 +56,7 @@
                     <b-col cols="8">
                         <CTA_Element text="Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt"></CTA_Element>
                         <FAQ>
-                            <Accordion question="verdammte frage" answer="verdammte antwort"></Accordion>
+                            <Accordion question="verdammte frage" answer="verdammte antwort" identifier="eins"></Accordion>
                             <Accordion question="verdammte frage" answer="verdammte antwort"></Accordion>
                             <Accordion question="verdammte frage" answer="verdammte antwort"></Accordion>
                             <Accordion question="verdammte frage" answer="verdammte antwort"></Accordion>
