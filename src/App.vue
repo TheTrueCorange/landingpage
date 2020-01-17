@@ -14,7 +14,6 @@
         <div class="bg__blue">
             <b-container>
                 <b-row>
-                    <b-col></b-col>
                     <b-col cols="8">
                         <List>
                             <ListRow
@@ -39,7 +38,6 @@
                                     text2="100% Gewissheit, wie dein Training aussieht."/>
                         </List>
                     </b-col>
-                    <b-col></b-col>
                 </b-row>
             </b-container>
 
