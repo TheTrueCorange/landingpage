@@ -1,3 +1,9 @@
+/*
+Phone: 375px
+Tablet: 768px
+Desktop: 1280px
+ */
+
 *{
     font-family: Raleway;
 }
@@ -17,7 +23,7 @@ p{
     font-weight: 800;
     text-transform: uppercase;
     position: relative;
-    margin-bottom: 70px;
+    padding: 50px;
 }
 
 .text-center{
@@ -40,7 +46,20 @@ p{
     width: 324px;
     height: 82px;
     margin: 0 auto;
-    background-color: #33adff;
+    background-color: #228A22;
+}
+
+.cta_element{
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-position: -97px 0;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #1e3250;
+    padding: 20px;
 }
 
 .white{
@@ -58,4 +77,54 @@ p{
 
 .bg__blue{
     background-color: #040E1E;
+    padding: 50px;
+}
+
+.accordion{
+
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-position: -97px 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1e3250;
+
+}
+
+.accordion__headline{
+    background-color: #1e3250;
+}
+
+.accordion__icon{
+    padding: 5% 5% 5% 5%;
+    float: left;
+}
+
+.accordion__headline__text{
+    padding: 5% 5% 5% 5%;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px){
+    .cta_element{
+        width: 75%;
+    }
+
+    .accordion{
+        width: 75%;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) {
+    .cta_element {
+        width: 100%;
+    }
+
+    .accordion{
+        width: 100%;
+    }
 }
