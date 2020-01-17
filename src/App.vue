@@ -1,14 +1,12 @@
 <template>
     <div id="app">
         <!-- line -->
-        <b-container>
+        <b-container fluid="xl">
             <b-row>
-                <b-col></b-col>
-                <b-col cols="10">
+                <b-col cols="8">
                     <headline2 class="section-title text-center"
                                text="Hallo meine kleine liebe welt Hallo meine kleine liebe welt Hallo meine kleine liebe welt Hallo meine kleine liebe welt"></headline2>
                 </b-col>
-                <b-col></b-col>
             </b-row>
         </b-container>
 
@@ -16,11 +14,9 @@
         <div class="bg__blue">
             <b-container>
                 <b-row>
-                    <b-col></b-col>
-                    <b-col cols="10">
+                    <b-col cols="12">
                         <List></List>
                     </b-col>
-                    <b-col></b-col>
                 </b-row>
 
                 <BuyButton text="hallo welt" url="http://www.google.com"></BuyButton>
