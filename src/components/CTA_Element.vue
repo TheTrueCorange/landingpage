@@ -1,5 +1,5 @@
 <template>
-    <div class="cta_element background white">
+    <div class="cta_element background white thisWidth">
         {{text}}
     </div>
 </template>
@@ -17,6 +17,11 @@
 
     .background{
         background-color: #1e3250;
+    }
+
+    .thisWidth{
+        max-width: 80%;
+        margin: auto;
     }
 
 </style>

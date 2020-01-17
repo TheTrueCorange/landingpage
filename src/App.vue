@@ -3,7 +3,7 @@
         <!-- line -->
         <b-container>
             <b-row>
-                <b-col cols="8">
+                <b-col cols="12">
                     <headline2 class="section-title text-center"
                                text="Here comes a banner"></headline2>
                 </b-col>
@@ -14,28 +14,37 @@
         <div class="bg__blue">
             <b-container>
                 <b-row>
-                    <b-col cols="8">
+                    <b-col cols="6">
                         <List>
-                            <ListRow
+                            <ListElement
                                     :url="require('../src/assets/icons/007-dumbbell_white.png')"
-                                    text="100% Gewissheit, wie dein Training aussieht."
-                                    :url2="require('../src/assets/icons/007-dumbbell_white.png')"
-                                    text2="100% Gewissheit, wie dein Training aussieht."/>
-                            <ListRow
+                                    text="100% Gewissheit, wie dein Training aussieht."/>
+                            <ListElement
                                     :url="require('../src/assets/icons/007-dumbbell_white.png')"
-                                    text="100% Gewissheit, wie dein Training aussieht."
-                                    :url2="require('../src/assets/icons/007-dumbbell_white.png')"
-                                    text2="100% Gewissheit, wie dein Training aussieht."/>
-                            <ListRow
+                                    text="100% Gewissheit, wie dein Training aussieht."/>
+                            <ListElement
                                     :url="require('../src/assets/icons/007-dumbbell_white.png')"
-                                    text="100% Gewissheit, wie dein Training aussieht."
-                                    :url2="require('../src/assets/icons/007-dumbbell_white.png')"
-                                    text2="100% Gewissheit, wie dein Training aussieht."/>
-                            <ListRow
+                                    text="100% Gewissheit, wie dein Training aussieht."/>
+                            <ListElement
                                     :url="require('../src/assets/icons/007-dumbbell_white.png')"
-                                    text="100% Gewissheit, wie dein Training aussieht."
-                                    :url2="require('../src/assets/icons/007-dumbbell_white.png')"
-                                    text2="100% Gewissheit, wie dein Training aussieht."/>
+                                    text="100% Gewissheit, wie dein Training aussieht."/>
+                        </List>
+                    </b-col>
+
+                    <b-col cols="6">
+                        <List>
+                            <ListElementInverted
+                                    :url="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text="100% Gewissheit, wie dein Training aussieht."/>
+                            <ListElementInverted
+                                    :url="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text="100% Gewissheit, wie dein Training aussieht."/>
+                            <ListElementInverted
+                                    :url="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text="100% Gewissheit, wie dein Training aussieht."/>
+                            <ListElementInverted
+                                    :url="require('../src/assets/icons/007-dumbbell_white.png')"
+                                    text="100% Gewissheit, wie dein Training aussieht."/>
                         </List>
                     </b-col>
                 </b-row>
@@ -48,7 +57,7 @@
 
             <b-container>
                 <b-row>
-                    <b-col cols="8">
+                    <b-col cols="12">
                         <CTA_Element text="Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt"></CTA_Element>
                         <FAQ>
                             <Accordion question="verdammte frage" answer="verdammte antwort" identifier="eins"></Accordion>
@@ -67,7 +76,7 @@
         <div>
             <b-container>
                 <b-row>
-                    <b-col cols="8">
+                    <b-col cols="12">
                         <BuyButton text="kauf meinen scheiß"></BuyButton>
                     </b-col>
                     <b-col></b-col>
@@ -82,7 +91,8 @@
     import Headline2 from "@/components/Headline2";
     import BuyButton from "@/components/BuyButton";
     import List from "@/components/List";
-    import ListRow from "@/components/ListRow";
+    import ListElement from "@/components/ListElement";
+    import ListElementInverted from "./components/ListElementInverted";
     import CTA_Element from "@/components/CTA_Element";
     import Accordion from "@/components/Accordion";
     import FAQ from "./components/FAQ";
@@ -93,7 +103,8 @@
             Headline2,
             BuyButton,
             List,
-            ListRow,
+            ListElement,
+            ListElementInverted,
             CTA_Element,
             Accordion,
             FAQ

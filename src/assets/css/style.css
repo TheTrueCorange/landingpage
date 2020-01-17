@@ -17,11 +17,13 @@ p{
     line-height: 1.9;
     margin-bottom: 20px;
 }
+.CTA-Button{
+    width: 100px
+}
 
 #app{
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
     flex-direction: column;
     width: 100vw;
 }
