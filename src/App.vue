@@ -3,7 +3,7 @@
         <!-- line -->
         <b-container>
             <b-row>
-                <b-col cols="12">
+                <b-col cols="8">
                     <headline2 class="section-title text-center"
                                text="Here comes a banner"></headline2>
                 </b-col>
@@ -48,7 +48,6 @@
 
             <b-container>
                 <b-row>
-                    <b-col></b-col>
                     <b-col cols="8">
                         <CTA_Element text="Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt, Hallo du grausame welt"></CTA_Element>
                         <FAQ>
@@ -60,16 +59,15 @@
                     </b-col>
                 </b-row>
 
-                <BuyButton text="hallo welt" url="http://www.google.com"></BuyButton>
             </b-container>
         </div>
+
 
         <!-- line -->
         <div>
             <b-container>
                 <b-row>
-                    <b-col></b-col>
-                    <b-col cols="10">
+                    <b-col cols="8">
                         <BuyButton text="kauf meinen scheiß"></BuyButton>
                     </b-col>
                     <b-col></b-col>
