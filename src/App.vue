@@ -3,7 +3,7 @@
         <!-- line -->
         <b-container>
             <b-row>
-                <b-col cols="8">
+                <b-col cols="12">
                     <headline2 class="section-title text-center"
                                text="Here comes a banner"></headline2>
                 </b-col>
@@ -95,6 +95,10 @@
             Headline2,
             BuyButton,
             List,
+            ListRow,
+            CTA_Element,
+            Accordion,
+            FAQ
         }
     }
 </script>
